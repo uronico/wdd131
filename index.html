@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Nico Uro</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Nico Uro, Keyword Summary of Page Content">
+    <meta name="author" content="Nico Uro">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Nico Uro</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/nico-uro-447317257/">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Favorite
+                        Scripture</a></li>
+                <li><a href="Final Project Folder Link">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="left">
+                <p>My name is Nico Uro. I was born and raised in the Philippines. I am currently working as a
+                    business development executive at a recruitment and outsourcing company. I love to travel and
+                    eat foods. Chocolates are my comfort food and stress reliever. I love watching anime.</p>
+                <img src="images/nico.jpg" alt="Image1">
+            </div>
+            <h3>The Philippines</h3>
+            <div class="country">
+                <div>
+                    <img src="images/Philippine flag.png" alt="Flag of Philippines">
+                    <span>Official Flag of The Philippines</span>
+                </div>
+                <p>The Philippines, officially the Republic of the Philippines, is an archipelagic country in
+                    Southeast Asia. In the western Pacific Ocean, it consists of 7,641 islands, with a total area of
+                    300,000 square kilometers, which are broadly categorized in three main geographical divisions
+                    from north to south: Luzon, Visayas, and Mindanao. </p>
+            </div>
+            </div>
+        </section>
+        <section class="right">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://coolors.co/dff8eb-c4d6b0-56494e-ffc2b4-511c29">Color Pallete Creator</a>
+                </li>
+                <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/html/html_lists.asp">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Nico Uro, Philippines
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <!-- JavaScript for Dynamic Content -->
+    <script>
+        // Populate current year
+        document.getElementById("currentyear").textContent = new Date().getFullYear();
+        // Populate last modified date
+        document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+    </script>
+</body>
+
+</html>

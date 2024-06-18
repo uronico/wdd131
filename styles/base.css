@@ -1,0 +1,181 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply font-family */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Apply CSS Flex to navigation */
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Well-designed hover effect for navigation */
+nav a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Center main element horizontally */
+
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+}
+
+.card,
+.right {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    border: .1rem solid gray;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 0 0 15px;
+}
+
+h2 {
+    font-size: large;
+    font-weight: 700;
+    padding: .5em 0 2em 1em;
+    margin: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 100%;
+    padding: 15px;
+}
+
+p {
+    font-size: medium;
+    padding: .5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card img {
+    max-height: 12em;
+    padding: 1em 1em 0 3em;
+}
+
+h3 {
+    font-size: large;
+    font-weight: 700;
+    padding: 1em 0 1em 1em;
+    margin: 0 8em 1em 8em;
+    text-align: center;
+    border-bottom: .1rem solid blue;
+    color: black;
+}
+
+.country {
+    display: flex;
+}
+
+.country div {
+    display: flex;
+    flex-direction: column;
+    padding: .2em;
+    align-items: center;
+}
+
+.country img {
+    max-width: 15em;
+}
+
+.country div span {
+    padding: 1em 0 0 1em;
+    font-style: italic;
+    font-size: 20px;
+    color: brown;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    padding: .5em;
+
+}
+
+.card h2 {
+    color: black;
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 1em;
+}
+
+.right h2 {
+    color: black;
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 1em;
+}
+
+body {
+    display: block;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5em;
+    color: black;
+}
