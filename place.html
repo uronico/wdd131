@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Media query learning activity example page.">
+    <meta name="author" content="Nico Uro">
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <title>WDD 131 - Place - Uro, Nico</title>
+</head>
+
+<body>
+    <header>
+        <h1>Palawan, Philippines</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/palawan-large.webp" media="(min-width: 900px)">
+                <img src="images/elnido-small.webp" alt="Temple name and location" width="500" height="250">
+            </picture>
+        </div>
+        <div class="data-container">
+            <h2>Data</h2>
+            <div class="data">
+                <div class="text">
+                    <p>Area: </p>
+                    <p>Population: </p>
+                    <p>Capital: </p>
+                    <p>Languages: </p>
+                    <p>Currency: </p>
+                    <p>Time Zone: </p>
+                    <p>Calling Code: </p>
+                    <p>Internet TLD: </p>
+                </div>
+                <div class="result">
+                    <p id="area">5,656.29 sq mi</p>
+                    <p id="population">939,594</p>
+                    <p id="capital">Puerto Princesa</p>
+                    <p id="lang">Tagalog, Hiligaynon,</p>
+                    <p id="currency">Philippine Peso</p>
+                    <p id="time">UTC+8 (PHT)</p>
+                    <p id="calling">+639</p>
+                    <p id="internet">.ph</p>
+                </div>
+            </div>
+        </div>
+        <div class="weather-container">
+            <div class="weather-title">
+                <h2>Weather</h2>
+                <img id="weather-icon" src="images/weather.svg" alt="Weather Icon">
+            </div>
+            <div class="weather">
+                <div class="text">
+                    <p>Temperature: </p>
+                    <p>Conditions: </p>
+                    <p>Wind: </p>
+                    <p>Wind Chill: </p>
+                </div>
+                <div class="result">
+                    <p id="temp">9</p>
+                    <p id="condition">Sunny</p>
+                    <p id="wind">5</p>
+                    <p id="wind-chill"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Nico Uro | Philippines</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+</body>
+
+</html>
