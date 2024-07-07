@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     smallTemplesLink.addEventListener("click", () => {
         const smallTemples = temples.filter(temple => temple.area < 10000);
-        document.querySelector(".container").innerHTML = '';
+        document.querySelector(".temples").innerHTML = '';
         createTempleCard(smallTemples);
         pageTitle.textContent = "Small Temples";
     });
